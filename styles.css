@@ -88,8 +88,8 @@ main {
 
 .sun {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     background: radial-gradient(circle, #ffd60a 0%, #ffc300 50%, #fb8500 100%);
     border-radius: 50%;
     box-shadow: 0 0 60px #ffd60a, 0 0 100px #ffc300;
@@ -154,65 +154,65 @@ main {
 }
 
 .mercury {
-    width: 4px;
-    height: 4px;
-    background: #8d99ae;
-    top: 0;
-    left: 50%;
-    margin-left: -2px;
-}
-
-.venus {
-    width: 9px;
-    height: 9px;
-    background: #e9c46a;
-    top: 0;
-    left: 50%;
-    margin-left: -4.5px;
-}
-
-.earth {
-    width: 9px;
-    height: 9px;
-    background: linear-gradient(135deg, #2a9d8f 0%, #264653 100%);
-    top: 0;
-    left: 50%;
-    margin-left: -4.5px;
-}
-
-.mars {
     width: 5px;
     height: 5px;
-    background: #e76f51;
+    background: #8d99ae;
     top: 0;
     left: 50%;
     margin-left: -2.5px;
 }
 
+.venus {
+    width: 12px;
+    height: 12px;
+    background: #e9c46a;
+    top: 0;
+    left: 50%;
+    margin-left: -6px;
+}
+
+.earth {
+    width: 13px;
+    height: 13px;
+    background: linear-gradient(135deg, #2a9d8f 0%, #264653 100%);
+    top: 0;
+    left: 50%;
+    margin-left: -6.5px;
+}
+
+.mars {
+    width: 7px;
+    height: 7px;
+    background: #e76f51;
+    top: 0;
+    left: 50%;
+    margin-left: -3.5px;
+}
+
 .jupiter {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     background: linear-gradient(135deg, #f4a261 0%, #e76f51 100%);
     top: 0;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -70px;
 }
 
 .saturn {
-    width: 83px;
-    height: 83px;
+    width: 117px;
+    height: 117px;
     background: #f4a261;
     top: 0;
     left: 50%;
-    margin-left: -41.5px;
+    margin-left: -58.5px;
     position: relative;
 }
 
 .ring {
     position: absolute;
-    width: 133px;
-    height: 133px;
-    border: 3px solid rgba(244, 162, 97, 0.6);
+    width: 180px;
+    height: 180px;
+    border: 4px solid rgba(244, 162, 97, 0.6);
     border-radius: 50%;
     top: 50%;
     left: 50%;
@@ -220,21 +220,21 @@ main {
 }
 
 .uranus {
-    width: 36px;
-    height: 36px;
+    width: 51px;
+    height: 51px;
     background: #06aed5;
     top: 0;
     left: 50%;
-    margin-left: -18px;
+    margin-left: -25.5px;
 }
 
 .neptune {
-    width: 35px;
-    height: 35px;
+    width: 49px;
+    height: 49px;
     background: #0077b6;
     top: 0;
     left: 50%;
-    margin-left: -17.5px;
+    margin-left: -24.5px;
 }
 
 .info-panel {
